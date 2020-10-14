@@ -1,25 +1,37 @@
 body{
-    background:#999;
-    font-family: arial; 
-}
-h1, h2, p, li {
-    color: #666; 
+    margin: 0; 
 }
 
-a{
-    color: green; 
-}
-
-p{
-    background: #777; 
+header{
+    background: #999; 
     color: white; 
-    padding: 10px 5px 5px 0px; 
+    padding: 5px 15px 0px 15px; 
 }
-.secondary{
-    background: none;
-    color: blue; 
+header h1{
+    margin: 0; 
+    display: inline; 
 }
-#special{
-    background: red; 
-    color: #777; 
+nav ul{
+    margin: 0; 
+    display: inline; 
+    padding: 0 0 0 15px; 
+}
+nav ul li {
+    background: black; 
+    color: white; 
+    display: inline-block; 
+    list-style-type: none; 
+    padding: 5px 15px; 
+}
+nav ul li a{
+    color: white; 
+}
+.row{
+
+}
+.col{
+    float: left; 
+}
+footer {
+    clear: both; 
 }
